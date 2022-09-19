@@ -1,0 +1,43 @@
+#registro .container {
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 600px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px #ccc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+#registro .form .d-flex{
+    margin-bottom: 20px;
+    justify-content: space-between;
+    color: #212529;
+}
+
+#registro .form label{
+    width: 30%;
+}
+
+#registro .form input{
+    width: 70%;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+#registro .form input[type=submit] {
+    width: 30%;
+    background-color: #198754;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+#registro .form input[type=submit]:hover {
+    background-color: #196944;
+}
+
+#registro h2 {
+    margin-bottom: 25px;
+}

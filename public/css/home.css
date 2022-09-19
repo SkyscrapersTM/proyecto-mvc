@@ -1,0 +1,30 @@
+#portada h1{
+    font-family: 'Bitter', serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+} 
+
+#portada p{
+    color: white;
+    font-size: 18px;
+}
+
+#about-us h2 {
+    font-family: 'Bitter', serif;
+    font-size: 35px;
+}
+
+#about-us .container{
+    height: 100vh;
+    padding: 20px;
+}
+
+#about-us img {
+    border-radius: 8px;
+}
+
+#about-us p{
+    line-height: 22px;
+    font-size: 18px;
+}
