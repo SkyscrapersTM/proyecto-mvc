@@ -13,8 +13,16 @@
             <li><a href="<?php echo constant('URL'); ?>main">Inicio</a></li>
             <li><a href="<?php echo constant('URL'); ?>registro">Registrar</a></li>
             <li><a href="<?php echo constant('URL'); ?>consulta">Consultar</a></li>
-            <li><a href="<?php echo constant('URL'); ?>carrito">Carrito</a></li>
+            <li><a href="<?php echo constant('URL'); ?>carrito">Tienda</a></li>
+            <li class="carrito">
+                <a class="btn-carrito" href="#">Carrito</a>
+                <div id="carrito-container">
+                    <div id="tabla">
+                    </div>
+                </div>
+            </li>            
         </ul>
     </nav>
+    
 </body>
 </html>
